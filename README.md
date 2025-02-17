@@ -24,11 +24,11 @@ How to build rplidar ros package
 
 
 ```
-cd [your-ros-package-directory]/src
+cd [your-ros-ws]/src
 
-git clone git@github.com:babakhani/rplidar_ros2.git
+git clone https://github.com/charif-tekbot/rplidar_ros2
 
-cd [your-ros-package-directory]
+cd ..
 
 colcon build --symlink-install
 
